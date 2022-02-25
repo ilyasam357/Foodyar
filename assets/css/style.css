@@ -256,3 +256,62 @@ section#statistic{
     font-size: 20px;
     text-align: center;
 }
+section#app{
+    text-align: left;
+    position: relative;
+    padding: 100px  150px 150px 208px;
+    
+    
+}
+
+#app .item-app{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#app .details-app {
+    width: 446px;
+    
+    align-items: center;
+    justify-content: center;
+}
+#app .details-app h3{
+    font-size: 46px;
+    line-height: 70px;
+}
+#app .details-app p{
+    font-size: 20px;
+    line-height: 34px; 
+}
+.img-logo{
+    margin-top: 50px;
+    display: flex;
+    gap: 21px;
+}
+section#footer{
+    flex-direction: row;
+    justify-content: center;
+    z-index: -1;
+}
+#footer .logo2{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.logo2 > img{
+    padding: 147px 100px 174px 117px;
+    align-items: center;
+}
+.logo2 >h2{
+    padding: 144px 55px;
+    font-size: 28px;
+}
+.text2 > h4{
+    line-height: px;
+    padding: 22px;
+}
+.text2 {
+    padding: 11px;
+}
